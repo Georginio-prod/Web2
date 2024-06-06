@@ -35,11 +35,13 @@ body {
 .description {
     color: #FFFFFF;
     font-size: 22px;
+    font-weight: 600;
 }
 
 .legende {
     color: #8BACD9;
     font-size: 16px;
+    text-shadow: #FFFFFF;
 }
 .ligne {
   border: none;
@@ -59,10 +61,11 @@ body {
 }
 
 .avatar .img {
-    border-radius: 50%;
+    border-radius: 50% ;
     width: 33px;
     height: 33px;
     margin-right: 10px; 
+    border: 1px solid white;
 }
  .item-color {
     margin: 0; 
@@ -85,10 +88,11 @@ body {
 
 .icon-item {
     color: #00FFF8 ;
+    font-weight: 400;
 }
 
 .icon-item2 {
-    
+    font-weight: 400;
     color: #8BACD9;
 }
 
