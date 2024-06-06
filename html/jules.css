@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #0D192C;
+    font-family: "Outfit", sans-serif;
+}
+
+
+.background {
+    background-color: #15263F;
+    border-radius: 10px;
+    height: 543px;
+    width: 327px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.image {
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.item {
+   
+}
+
+.description {
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.legende {
+    color: #8BACD9;
+    font-size: 16px;
+}
+.ligne {
+  border: none;
+  width: 100%;
+  border-top: 1px solid #2E405A;
+  margin: 24px 0;
+
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 33px;
+    padding-bottom: 20px;
+   
+}
+
+.avatar .img {
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    margin-right: 10px; 
+}
+ .item-color {
+    margin: 0; 
+    color:#8BACD9 ;
+}
+
+.item-color-color {
+    color: #FFFFFF;
+}
+.avatar p, .avatar span {
+    margin: 0;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icon-item {
+    color: #00FFF8 ;
+}
+
+.icon-item2 {
+    
+    color: #8BACD9;
+}
+
+.icon-item, .icon-item2 {
+    display: flex;
+    align-items: center;
+}
